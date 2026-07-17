@@ -39,6 +39,24 @@ This project predicts future sales using machine learning techniques on the Stor
 - MAE
 - RMSE
 - R² Score
+  
+## Model Performance
+
+Two machine learning models were trained and compared.
+
+| Model | MAE | RMSE | R² Score |
+|------|------:|------:|------:|
+| Random Forest | 47.39 | 269.81 | 0.8027 |
+| XGBoost | 52.70 | 254.40 | 0.8246 |
+
+### Best Model
+Based on the evaluation metrics, **XGBoost** achieved the best overall performance with:
+
+- **MAE:** 52.70
+- **RMSE:** 254.40
+- **R² Score:** 0.8246
+
+The XGBoost model was selected as the final forecasting model because it achieved the highest R² score and the lowest RMSE among the evaluated models.
 
 ## Files
 - Sales_Forecasting.ipynb
